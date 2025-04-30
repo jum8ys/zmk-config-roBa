@@ -62,11 +62,13 @@
             tapping-term-ms = <200>;
         };
 
-        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+        scroll_up_down: sensor_rotate_scroll_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
+            label = "SENSOR_ROTATE_SCROLL_UP_DOWN";
         };
     };
 
@@ -76,7 +78,7 @@
         default_layer {
             bindings = <
 &mt LS(LA(LC(LEFT_GUI))) Q  &kp W         &kp E         &kp R  &kp T                                             &kp Y        &kp U  &kp I      &kp O      &kp P
-&kp A                       &kp S         &kp D         &kp F  &kp G             &bt BT_CLR        &bt BT_SEL 1  &kp H        &kp J  &lt 5 K    &kp L      &kp ENTER
+&kp A                       &kp S         &kp D         &kp F  &kp G             &bt BT_CLR        &bt BT_SEL 1  &kp H        &kp J  &lt 1 K    &kp L      &kp ENTER
 &mt LEFT_SHIFT Z            &kp X         &kp C         &kp V  &kp B             &bt BT_SEL 0      &bt BT_SEL 2  &kp N        &kp M  &mkp LCLK  &mkp RCLK  &mt RIGHT_SHIFT SLASH
 &kp LCTRL                   &kp LEFT_ALT  &kp LEFT_GUI  &mo 1  &lt 2 LANGUAGE_2  &lt 3 SPACE       &lt 4 SPACE   &lt 1 LANG1                               &kp RIGHT_CONTROL
             >;
