@@ -62,9 +62,9 @@
             tapping-term-ms = <200>;
         };
 
-        encoder_msc_down_up: encoder_msc_down_up {
+        encoder_scroll_up_down: encoder_scroll_up_down {
             compatible = "zmk,behavior-sensor-rotate";
-            label = "ENCODER_MSC_DOWN_UP";
+            label = "ENCODER_SCROLL_UP_DOWN";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
             tap-ms = <20>;
@@ -82,7 +82,7 @@
 &kp LCTRL                   &kp LEFT_ALT  &kp LEFT_GUI  &mo 1  &lt 2 LANGUAGE_2  &lt 3 SPACE       &lt 4 SPACE   &lt 1 LANG1                               &kp RIGHT_CONTROL
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&encoder_scroll_up_down>;
         };
 
         FUNCTION {
