@@ -56,7 +56,7 @@
 &kp LCTRL                   &kp LEFT_ALT  &kp LEFT_GUI  &mo 1  &lt 2 LANGUAGE_2  &lt 3 SPACE      &lt 4 SPACE  &lt 1 LANG1                               &kp RIGHT_CONTROL
             >;
 
-            sensor-bindings = <&encoder_scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp A B>;
         };
 
         FUNCTION {
@@ -93,7 +93,7 @@
 &kp C_VOLUME_UP    &kp F7  &kp F8  &kp F9                &kp F12                                   &trans             &trans                &kp LC(MINUS)          &kp LC(LS(MINUS))  &kp LC(LG(UP))
 &kp C_VOLUME_DOWN  &kp F4  &kp F5  &kp F6                &kp F11               &trans      &trans  &kp LA(LG(EQUAL))  &kp LC(LEFT)          &kp LC(RIGHT)          &kp LC(UP)         &none
 &trans             &kp F1  &kp F2  &kp F3                &kp F10               &trans      &trans  &kp LA(LG(MINUS))  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LA(LG(N8))     &trans
-&trans             &trans  &trans  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_4))  &mo 5       &trans  &trans                                                                             &trans
+&trans             &trans  &trans  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_4))  &mo 5       &trans  &mo 5                                                                              &trans
             >;
         };
 
