@@ -56,7 +56,7 @@
 &kp LCTRL                   &kp LEFT_ALT  &kp LEFT_GUI  &mo 1  &lt 2 LANGUAGE_2  &lt 3 SPACE      &lt 4 SPACE  &lt 1 LANG1                               &kp RIGHT_CONTROL
             >;
 
-            sensor-bindings = <&inc_dec_kp A B>;
+            sensor-bindings = <&encoder_scroll_up_down>;
         };
 
         FUNCTION {
