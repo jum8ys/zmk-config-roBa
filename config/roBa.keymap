@@ -13,6 +13,7 @@
     automouse-layer = <4>;
     scroll-layers = <5>;
 
+    // Example: use trackball as arrow keys on layer 3
     // arrows {
     //     layers = <3>;
     //     bindings =
@@ -21,40 +22,15 @@
     //         <&kp UP_ARROW>,
     //         <&kp DOWN_ARROW>;
 
-    //     tick = <10>;
-    //     wait-ms = <5>;
-    //     tap-ms = <5>;
+    //     tick = <10>;    // send a key every N pixels of movement
+    //     wait-ms = <5>;  // delay between keys
+    //     tap-ms = <5>;   // key press duration
     // };
 };
 
 / {
     combos {
         compatible = "zmk,combos";
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
     };
 
     macros {
