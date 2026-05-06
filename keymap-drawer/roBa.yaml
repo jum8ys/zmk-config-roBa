@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: roBa}
 layers:
   default:
-  - {t: Q, h: Meh+LEFT GUI}
+  - Q
   - W
   - E
   - R
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: Meh+LEFT GUI}
   - S
   - D
   - F
@@ -20,7 +20,7 @@ layers:
   - ''
   - H
   - J
-  - {t: K, h: FUNCTION}
+  - {t: K, h: LAYER_1}
   - L
   - ENTER
   - {t: Z, h: LEFT SHIFT}
@@ -38,13 +38,13 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT GUI
-  - FUNCTION
-  - {t: LANGUAGE 2, h: NUM}
-  - {t: SPACE, h: ARROW}
-  - {t: SPACE, h: MOUSE}
-  - {t: LANG1, h: FUNCTION}
+  - LAYER_1
+  - {t: LANGUAGE 2, h: LAYER_2}
+  - {t: SPACE, h: LAYER_3}
+  - {t: SPACE, h: LAYER_4}
+  - {t: LANG1, h: LAYER_1}
   - RIGHT CONTROL
-  FUNCTION:
+  LAYER_1:
   - ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  NUM:
+  LAYER_2:
   - '`'
   - Sft+`
   - {t: ▽, type: trans}
@@ -132,7 +132,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - \
-  ARROW:
+  LAYER_3:
   - '1'
   - '2'
   - '3'
@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  MOUSE:
+  LAYER_4:
   - VOLUME UP
   - F7
   - F8
@@ -216,11 +216,11 @@ layers:
   - {t: ▽, type: trans}
   - Sft+Gui+2
   - Sft+Gui+4
-  - '5'
+  - LAYER_5
   - {type: held}
-  - '5'
+  - LAYER_5
   - {t: ▽, type: trans}
-  '5':
+  LAYER_5:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -264,47 +264,3 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - BT CLR ALL
-  SCROLL:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
